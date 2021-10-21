@@ -4,7 +4,7 @@ Writing code/instructions of logic in human readable ( Basic English ) format wh
 ## Suggestions to write Pseudocode
 These are not **rules**. Think of them as **suggestions**.
 
-* Capitalize Key Commands ( **IF** number is > 10 **THEN** )
+* Capitalize Key Commands ( **IF** number is > 10 **THEN** etc.,.  ) 
 * Write one statement per line
 * Use Indentation ( `TAB` key if digitally )
 * Be Specific
@@ -23,7 +23,7 @@ Add student to classroom
 This is more like a I'm being added to an array called classroom in simple terms.
 
 #### Example Loop 
-When you want to do a specific action for a specific amount of time
+When you want to do a specific action for a specific amount of times.
 ```
 FOR LOOP:
 Set counter to 1
