@@ -84,7 +84,7 @@ Increment counter by 1
 ```
 Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above and the expected output will be printed.
 
-#### Method 2 ( Using While Loop - More Simpler )
+##### Method 2 ( Using While Loop - More Simpler )
 ```
 Set counter to 1
 WHILE LOOP:
