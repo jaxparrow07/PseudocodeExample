@@ -2,6 +2,7 @@
 Writing code/instructions of logic in human readable ( Basic English ) format which can be later understood by non-programmers. When reading it, you need to understand or imagine what it is actually going to do. Doesn't follow any strict syntax/way to write the instructions. 
 
 ## Suggestions to write Pseudocode
+These are not **rules**. Think of them as **suggestions**.
 
 * Capitalize Key Commands ( **IF** number is > 10 **THEN** )
 * Write one statement per line
@@ -9,6 +10,44 @@ Writing code/instructions of logic in human readable ( Basic English ) format wh
 * Be Specific
 * Keep it simple and neat
 
+## Writing
+You can write key elements in UPPERCASE. Like **WHILE, LOOP, TRUE, IF, THEN, ELSE, ELSE IF** actions.<br>
+Simply write things like setting counter, setting name, increasing the number, stopping it in basic english.
+
+#### Example code
+```
+Set classroom empty
+Set student "Jack"
+Add student to classroom
+```
+This is more like a I'm being added to an array called classroom in simple terms.
+
+#### Example Loop 
+When you want to do a specific action for a specific amount of time
+```
+FOR LOOP:
+Set counter to 1
+Stop when counter reaches 10
+Increment by 1
+
+-> IF ( YOUR CASE HERE )
+-> -> ( THE INSTRUCTIONS IF THE ABOVE CASE/CONDITION IS CORRECT )
+```
+
+`->` means a single indentation or a `TAB` keypress
+
+for example we can turn it to
+```
+FOR LOOP:
+Set counter to 1
+Stop when counter reaches 10
+Increment by 1
+
+  IF number is > 5
+    print "This number is greater than 5"
+
+```
+You will get the message after it starts from 6. So you will get the "The number is greater than 5" 5 times respectively.
 <hr>
 
 ## Sample Excercise
@@ -44,7 +83,7 @@ Increment counter by 1
 ```
 
 Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above and the expected output will be printed.
-
+<hr>
 #### (*) Some points
 **Loops**<br>
 In loops, the else if and the else statement will be checked if the first or the previous statement is wrong. e.g
@@ -66,4 +105,4 @@ Set number to 10
 ```
 Here we know the number is 10. All of the statements are true. 10 is lesser than 15, 20 and 50. But, it will stop if one of the statement is correct and you will only get the output of **"Less than 15"** since it will be ended and it won't moving to the next condition/checks.
 
-
+<hr>
