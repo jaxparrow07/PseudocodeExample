@@ -134,4 +134,16 @@ Here we know the number is 10. All of the statements are true. 10 is lesser than
 <hr>
 
 ### Real Code Solutions of the above problem
-I wrote some code examples of the same problem to better understand how the same logic and instructions can be applied in various programming technologies/languages.
+I wrote some code examples of the same problem to better understand how the same logic and instructions can be applied in various programming technologies/languages.<br>
+
+#### Method 1 ( For Loop )
+* [Java](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/JavaExample.java)
+* [Javascript](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/JSExample.js)
+
+#### Method 2 ( While Loop ) - Easier to understand
+* [Python](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/PythonExample.py)
+* [Bash](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/BashExample.sh)
+
+<hr>
+
+Made with ❤️ by Jaxparrow
