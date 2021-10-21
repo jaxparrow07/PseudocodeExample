@@ -63,6 +63,7 @@ For numbers whiich are multiples of both three and five print "FizzBuzz"<br><br>
 Loop ( cycle/count ) from 1 to 20. Stop counting if the number is 20. Increase the counter after checking the conditions ( checking whether it is divisible or not ). Check if the current number is divisble by 3 ( Using modulo to divide the number and then checking if the remainder is 0 ) if yes, print "Fizz". Else if the number is divisble by 5, print "Buzz" instead. Else If the number is both divisble by 3 and 5 ( In this case of 1 to 20, 15 is the only number which is divisible by both 3 and 5 ). So, we will use it instead of indirectly checking the number. If none of the above statements/checks don't pass ( e.g 7,8,.. ), we will print the number as it is. This instructions applies to all the 20 loops/cycles/counts
 <br>
 #### Writng Pseudocode
+##### Method 1 ( Using For Loop - Little Advanced )
 ```
 FOR LOOP:
 Set counter to 1
@@ -81,8 +82,31 @@ Increment counter by 1
   ELSE
     print number
 ```
-
 Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above and the expected output will be printed.
+
+#### Method 2 ( Using While Loop - More Simpler )
+```
+Set counter to 1
+WHILE LOOP:
+Break when counter reaches 20
+
+  IF number MOD 15 == 0
+    print 'FizzBuzz'
+
+  ELSE IF number MOD 3 == 0
+    print 'Fizz'
+    
+  ELSE IF number MOD 5 == 0
+    print 'Buzz'
+    
+  ELSE
+    print number
+    
+  Increment counter by 1
+
+```
+Sets the number to 1, Runs a loop. While **the number is lesser or equal to 20**, checks the following statements and prints the number. Increases the number before another cycle. Once it increases the number to 21. This loop/cycle will no longer run.
+
 
 <hr>
 
