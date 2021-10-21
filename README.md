@@ -144,7 +144,7 @@ I wrote some code examples of the same problem to better understand how the same
 * ![Python](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/PythonExample.py)
 * ![Bash](https://github.com/jaxparrow07/PseudocodeExample/blob/main/code_examples/BashExample.sh)
 
-#### Output Printed
+#### Output Being Printed
 ```
 1
 2
