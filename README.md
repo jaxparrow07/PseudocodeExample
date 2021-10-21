@@ -83,8 +83,10 @@ Increment counter by 1
 ```
 
 Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above and the expected output will be printed.
+
 <hr>
-#### (*) Some points
+
+### Some points
 **Loops**<br>
 In loops, the else if and the else statement will be checked if the first or the previous statement is wrong. e.g
 ```
@@ -106,3 +108,6 @@ Set number to 10
 Here we know the number is 10. All of the statements are true. 10 is lesser than 15, 20 and 50. But, it will stop if one of the statement is correct and you will only get the output of **"Less than 15"** since it will be ended and it won't moving to the next condition/checks.
 
 <hr>
+
+### Real Code Solutions of the above problem
+I wrote some code examples of the same problem to better understand how the same logic and instructions can be applied in various programming technologies/languages.
