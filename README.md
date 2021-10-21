@@ -5,7 +5,7 @@ Writing code/instructions of logic in human readable ( Basic English ) format wh
 
 * Capitalize Key Commands ( **IF** number is > 10 **THEN** )
 * Write one statement per line
-* Use Indentation ( `TAB` Key if digitally )
+* Use Indentation ( `TAB` key if digitally )
 * Be Specific
 * Keep it simple and neat
 
@@ -43,4 +43,27 @@ Increment counter by 1
     print number
 ```
 
-Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above.
+Runs a loop, sets the counter to 1, stops on 20, increases the number by 1 each time it cycles ( 1 to 20, which means 20 cycles ). The conditions being checked as mentioned above and the expected output will be printed.
+
+#### (*) Some points
+**Loops**<br>
+In loops, the else if and the else statement will be checked if the first or the previous statement is wrong. e.g
+```
+Set number to 10
+
+  IF number > 15
+    print "Less than 15"
+
+  ELSE IF number > 20
+    print "Less than 20"
+
+  ELSE IF number > 50
+    print "Less than 50"
+
+  ELSE
+    print "IDK"
+
+```
+Here we know the number is 10. All of the statements are true. 10 is lesser than 15, 20 and 50. But, it will stop if one of the statement is correct and you will only get the output of **"Less than 15"** since it will be ended and it won't moving to the next condition/checks.
+
+
